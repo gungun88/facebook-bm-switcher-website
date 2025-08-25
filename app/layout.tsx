@@ -71,6 +71,8 @@ export default function RootLayout({
     <html lang="zh-CN" className={`${playfair.variable} ${sourceSans.variable} antialiased`}>
       <head>
         <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
       </head>
       <body className="font-sans">{children}</body>
     </html>
