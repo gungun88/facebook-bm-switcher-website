@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- 橙色背景的盾牌/心形形状 -->
+  <path d="M256 80 C200 80 150 130 150 200 C150 280 256 420 256 420 C256 420 362 280 362 200 C362 130 312 80 256 80 Z" fill="#ea580c"/>
+  
+  <!-- 内部白色切换箭头 -->
+  <g transform="translate(256, 240)">
+    <!-- 左箭头 -->
+    <path d="M-50 -25 L-80 0 L-50 25" stroke="#ffffff" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-80" y1="0" x2="-15" y2="0" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- 右箭头 -->
+    <path d="M50 -25 L80 0 L50 25" stroke="#ffffff" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="15" y1="0" x2="80" y2="0" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- 中心圆点 -->
+    <circle cx="0" cy="0" r="8" fill="#ffffff"/>
+  </g>
+</svg>
