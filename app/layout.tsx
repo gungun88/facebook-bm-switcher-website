@@ -71,7 +71,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="zh-CN" className={`${playfair.variable} ${sourceSans.variable} antialiased`}>
+    <html lang="zh-CN" className={`${playfair.variable} ${sourceSans.variable} antialiased scroll-smooth`}>
       <body className="font-sans">{children}</body>
     </html>
   )
