@@ -49,13 +49,14 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/png" },
-      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-32x32.svg", sizes: "32x32", type: "image/svg+xml" },
+      { url: "/favicon-16x16.svg", sizes: "16x16", type: "image/svg+xml" },
     ],
     apple: [
-      { url: "/favicon.png", sizes: "180x180", type: "image/png" },
+      { url: "/favicon-96x96.svg", sizes: "180x180", type: "image/svg+xml" },
     ],
-    shortcut: "/favicon.png",
+    shortcut: "/favicon.svg",
   },
   manifest: "/site.webmanifest",
   viewport: "width=device-width, initial-scale=1",
@@ -70,7 +71,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" className={`${playfair.variable} ${sourceSans.variable} antialiased`}>
       <head>
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </head>
       <body className="font-sans">{children}</body>
     </html>
